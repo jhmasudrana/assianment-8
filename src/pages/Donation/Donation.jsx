@@ -12,7 +12,7 @@ const Donation = () => {
     if (donationItems) {
       setDonation(donationItems);
     } else {
-      setNoFound("No Data Found");
+      setNoFound("No Data  Found");
     }
   }, []);
 
@@ -40,7 +40,7 @@ const Donation = () => {
             onClick={() => setIsShow(!isShow)}
             className=" rounded px-5 bg-green-600 block mx-auto"
           >
-            {isShow ? "see less": "see more"}
+            {isShow ? "see less": "see more.."}
           </button>}
         </div>
       )}
